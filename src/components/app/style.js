@@ -16,6 +16,7 @@ html {
   margin: 0;
   padding: 0;
   min-height: 100vh;
+
 }
 
 body {
@@ -24,6 +25,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f5f5dc;
 }
 
 img,
