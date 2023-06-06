@@ -1,7 +1,7 @@
 import {StyledPageWrapper} from './style';
 import {Header} from '../header/Header';
 import {Main} from '../main/Main';
-export default function Wrapper({costs}) {
+export function Wrapper({costs}) {
   return (
     <StyledPageWrapper>
       <Header></Header>
