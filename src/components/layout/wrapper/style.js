@@ -9,4 +9,4 @@ const StyledPageWrapper = styled.div`
   min-height: calc(100 * var(--vh, 1vh));
 `;
 
-export default StyledPageWrapper;
+export {StyledPageWrapper};

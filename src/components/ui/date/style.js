@@ -13,17 +13,17 @@ const StyledDate = styled.div`
   justify-content: center;
 `;
 
-const Month = styled.div`
+const StyledMonth = styled.div`
   font-size: 0.75rem;
   font-weight: bold;
 `;
 
-const Year = styled.div`
+const StyledYear = styled.div`
   font-size: 0.75rem;
 `;
 
-const Day = styled.div`
+const StyledDay = styled.div`
   font-size: 1.5rem;
   font-weight: bold;
 `;
-export {StyledDate, Month, Year, Day};
+export {StyledDate, StyledMonth, StyledYear, StyledDay};

@@ -1,11 +1,11 @@
-import {Day, Month, StyledDate, Year} from './style';
+import {StyledDay, StyledMonth, StyledDate, StyledYear} from './style';
 
-export default function Date({data}) {
+export function Date({data}) {
   return (
     <StyledDate>
-      <Day>{data.day}</Day>
-      <Month>{data.month}</Month>
-      <Year>{data.year}</Year>
+      <StyledDay>{data.day}</StyledDay>
+      <StyledMonth>{data.month}</StyledMonth>
+      <StyledYear>{data.year}</StyledYear>
     </StyledDate>
   );
 }

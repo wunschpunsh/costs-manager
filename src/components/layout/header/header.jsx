@@ -1,13 +1,13 @@
-import {StyledHeader, Nav} from './style';
-import Container from '../../ui/container/Container';
+import {StyledHeader, StyledNav} from './style';
+import {Container} from '../../ui/container/Container';
 import Button from '../../ui/button/Button';
-export default function Header() {
+export function Header() {
   return (
     <StyledHeader>
       <Container>
-        <Nav>
+        <StyledNav>
           <Button>Добавить новый расход</Button>
-        </Nav>
+        </StyledNav>
       </Container>
     </StyledHeader>
   );

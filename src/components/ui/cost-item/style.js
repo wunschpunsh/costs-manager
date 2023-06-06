@@ -11,7 +11,7 @@ const StyledCostItem = styled.div`
   box-shadow: 0 2px 7px rgba(0, 0, 0, 0.25);
 `;
 
-const CostItemDescription = styled.div`
+const StyledCostItemDescription = styled.div`
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -20,4 +20,4 @@ const CostItemDescription = styled.div`
   justify-content: flex-start;
   flex: 1;
 `;
-export {StyledCostItem, CostItemDescription};
+export {StyledCostItem, StyledCostItemDescription};

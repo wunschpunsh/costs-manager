@@ -1,8 +1,9 @@
 import {StyledMain} from './style';
-import ContentHeader from '../../blocks/content-header/ContentHeader';
-import Costs from '../../blocks/costs/Costs';
-import Graph from '../../blocks/graph/Graph';
-export default function Main({costs}) {
+import {ContentHeader} from '../../blocks/content-header/ContentHeader';
+import {Costs} from '../../blocks/costs/Costs';
+import {Graph} from '../../blocks/graph/Graph';
+
+export function Main({costs}) {
   return (
     <StyledMain>
       <ContentHeader></ContentHeader>

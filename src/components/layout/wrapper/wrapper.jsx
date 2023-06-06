@@ -1,6 +1,6 @@
-import StyledPageWrapper from './style';
-import Header from '../header/Header';
-import Main from '../main/Main';
+import {StyledPageWrapper} from './style';
+import {Header} from '../header/Header';
+import {Main} from '../main/Main';
 export default function Wrapper({costs}) {
   return (
     <StyledPageWrapper>

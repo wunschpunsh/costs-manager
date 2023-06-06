@@ -1,13 +1,17 @@
 import styled from 'styled-components';
 
 const StyledContentHeader = styled.header``;
-const ContentHeaderWrapper = styled.div`
+const StyledContentHeaderWrapper = styled.div`
   padding: 50px 0;
   background-color: transparent;
   border-radius: 10px;
 `;
-const ContentHeaderParagraph = styled.p`
+const StyledContentHeaderParagraph = styled.p`
   margin: 0;
 `;
 
-export {StyledContentHeader, ContentHeaderParagraph, ContentHeaderWrapper};
+export {
+  StyledContentHeader,
+  StyledContentHeaderParagraph,
+  StyledContentHeaderWrapper,
+};

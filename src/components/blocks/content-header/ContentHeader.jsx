@@ -1,16 +1,19 @@
 import {
   StyledContentHeader,
-  ContentHeaderWrapper,
-  ContentHeaderParagraph,
+  StyledContentHeaderWrapper,
+  StyledContentHeaderParagraph,
 } from './style';
-import Container from '../../ui/container/Container';
-export default function ContentHeader() {
+import {Container} from '../../ui/container/Container';
+
+export function ContentHeader() {
   return (
     <StyledContentHeader>
       <Container>
-        <ContentHeaderWrapper>
-          <ContentHeaderParagraph>Выбор по году</ContentHeaderParagraph>
-        </ContentHeaderWrapper>
+        <StyledContentHeaderWrapper>
+          <StyledContentHeaderParagraph>
+            Выбор по году
+          </StyledContentHeaderParagraph>
+        </StyledContentHeaderWrapper>
       </Container>
     </StyledContentHeader>
   );

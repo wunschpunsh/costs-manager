@@ -1,15 +1,14 @@
-import {StyledCosts} from './style';
-import Container from '../../ui/container/Container';
-import CostItem from '../../ui/cost-item/CostItem';
-import {CostsContainer} from './style';
+import {StyledCosts, StyledCostsContainer} from './style';
+import {Container} from '../../ui/container/Container';
+import {CostItem} from '../../ui/cost-item/CostItem';
 
-export default function Cost({costs}) {
+export function Costs({costs}) {
   return (
     <StyledCosts>
       <Container>
-        <CostsContainer>
+        <StyledCostsContainer>
           <CostItem costs={costs}></CostItem>
-        </CostsContainer>
+        </StyledCostsContainer>
       </Container>
     </StyledCosts>
   );

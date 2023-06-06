@@ -11,9 +11,9 @@ const StyledHeader = styled.header`
   margin-bottom: 50px;
 `;
 
-const Nav = styled.nav`
+const StyledNav = styled.nav`
   display: flex;
   justify-content: center;
 `;
 
-export {StyledHeader, Nav};
+export {StyledHeader, StyledNav};
