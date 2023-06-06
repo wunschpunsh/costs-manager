@@ -1,6 +1,6 @@
 import {StyledHeader, Nav} from './style';
-import Container from '../../ui/container/container';
-import Button from '../../ui/button/button';
+import Container from '../../ui/container/Container';
+import Button from '../../ui/button/Button';
 export default function Header() {
   return (
     <StyledHeader>

@@ -1,10 +1,11 @@
 import {GlobalStyles} from './style';
-import Wrapper from '../layout/wrapper/wrapper';
+import Wrapper from '../layout/wrapper/Wrapper';
+import {costsData} from '../../mock/mock';
 function App() {
   return (
     <>
       <GlobalStyles />
-      <Wrapper />
+      <Wrapper costs={costsData} />
     </>
   );
 }

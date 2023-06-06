@@ -9,17 +9,15 @@ const StyledButton = styled.button`
   border: none;
   border-radius: 5px;
   text-decoration: none;
-  background-color: #2e9a00;
+  background-color: #77a6f7;
   color: #ffffff;
   opacity: 1;
   text-transform: uppercase;
-  transition: opacity 0.3s ease;
+  transition: opacity 0.6s ease;
 
   &:hover,
   &:active {
     opacity: 0.5;
-    background-color: #2e9a00;
-    box-shadow: inset 0px 4px 0px rgba(0, 0, 0, 0.14);
   }
 
   &:active {

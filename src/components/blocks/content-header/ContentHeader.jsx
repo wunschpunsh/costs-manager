@@ -3,7 +3,7 @@ import {
   ContentHeaderWrapper,
   ContentHeaderParagraph,
 } from './style';
-import Container from '../../ui/container/container';
+import Container from '../../ui/container/Container';
 export default function ContentHeader() {
   return (
     <StyledContentHeader>
