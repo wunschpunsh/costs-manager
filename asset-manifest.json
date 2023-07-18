@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.js": "/costs-manager/static/js/main.92ede54f.js",
+    "static/media/Montserrat-Bold.woff": "/costs-manager/static/media/Montserrat-Bold.2c155811b35513d5beaa.woff",
+    "static/media/Montserrat-Bold.woff2": "/costs-manager/static/media/Montserrat-Bold.2c155811b35513d5beaa.woff2",
+    "static/media/Montserrat-Regular.woff": "/costs-manager/static/media/Montserrat-Regular.ceb11275ab638627a643.woff",
+    "static/media/Montserrat-Regular.woff2": "/costs-manager/static/media/Montserrat-Regular.ceb11275ab638627a643.woff2",
+    "static/media/doodles.webp": "/costs-manager/static/media/doodles.197f5fa4df90990b66aa.webp",
+    "index.html": "/costs-manager/index.html",
+    "main.92ede54f.js.map": "/costs-manager/static/js/main.92ede54f.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.92ede54f.js"
+  ]
+}
